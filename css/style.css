@@ -348,7 +348,7 @@
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
-    color: var(--dark);
+    color: var(--light);
     cursor: pointer;
     transition: .5s;
     border-bottom: 2px solid transparent;
