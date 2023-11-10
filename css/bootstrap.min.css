@@ -3095,9 +3095,9 @@ fieldset:disabled .btn {
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
-    background-color: #b8895e;
-    border-color: #b38255;
-    box-shadow: 0 0 0 .25rem rgba(145, 99, 56, 0.5)
+    background-color: #c29c05;
+    border-color: #c29c05;
+    box-shadow: 0 0 0 .25rem rgba(141, 113, 2, 0.5)
 }
 
 .btn-check:checked+.btn-primary,
@@ -8369,6 +8369,10 @@ fieldset:disabled .btn {
 
 .bg-dark {
     background-color: #353535 !important
+}
+
+.bg-very-dark {
+    background-color: #2b2b2b !important
 }
 
 .bg-yellow {

@@ -285,6 +285,16 @@
     display: none;
 }
 
+main{
+    width:80%;
+    padding: 3vw;
+}
+
+.parag {
+    text-align: justify;  /* Justificar o texto */
+    line-height: 1.5;     /* Espaçamento entre linhas */
+    font-size: 18px;      /* Aumentar o tamanho da letra*/
+}
 
 /*** About ***/
 @media (min-width: 992px) {
