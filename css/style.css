@@ -242,9 +242,13 @@
     border-color: var(--primary);
 }
 
-.page-header {
+.page-header-1 {
     background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
+}
+
+.page-header-2 {
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/gato-13.png) center center no-repeat;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -285,6 +289,8 @@
     display: none;
 }
 
+/*** CSS code where I dont know where to put***/
+
 main{
     width:80%;
     padding: 3vw;
@@ -294,6 +300,15 @@ main{
     text-align: justify;  /* Justificar o texto */
     line-height: 1.5;     /* Espaçamento entre linhas */
     font-size: 18px;      /* Aumentar o tamanho da letra*/
+}
+
+.parag-no-justi {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.hover:hover {
+    color: var(--primary);
 }
 
 /*** About ***/

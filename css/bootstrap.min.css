@@ -7342,6 +7342,10 @@ fieldset:disabled .btn {
     border-color: #fff !important
 }
 
+.border-white-solid {
+    border: 5px solid white;
+}
+
 .border-1 {
     border-width: 1px !important
 }
