@@ -289,7 +289,7 @@
     display: none;
 }
 
-/*** CSS code where I dont know where to put***/
+/*** Stuff where I dont know where to put***/
 
 main{
     width:80%;
@@ -297,9 +297,9 @@ main{
 }
 
 .parag {
-    text-align: justify;  /* Justificar o texto */
-    line-height: 1.5;     /* Espaçamento entre linhas */
-    font-size: 18px;      /* Aumentar o tamanho da letra*/
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 .parag-no-justi {
@@ -309,6 +309,21 @@ main{
 
 .hover:hover {
     color: var(--primary);
+}
+
+@media (max-width: 992px) {
+    main {
+        width: 90%;
+        padding: 2vw;
+    }
+
+    .parag {
+        font-size: 16px;
+    }
+
+    .parag-no-justi {
+        font-size: 16px;
+    }
 }
 
 /*** About ***/
